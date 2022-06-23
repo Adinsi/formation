@@ -1,0 +1,54 @@
+.teamContainer{
+
+    background-color: whitesmoke;
+    h1{
+        color: darksalmon;
+        text-align: center;
+
+    }
+    .team-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+        .teamElement{
+            width: 400px;
+            height: 100px;
+            text-align: center;
+line-height: 45px;
+            margin-top:35px;
+        }
+    }
+    p{
+        text-align: center;
+    }
+    img{
+        border-radius: 100%;
+        font-size: 2rem;
+        border: 2px solid rgb(243, 243, 16);
+    }
+}
+
+@media screen and (max-width : 850px) {
+    .teamContainer{
+      
+        background-color: whitesmoke;
+        .team-menu{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+        }
+        p{
+            text-align: center;
+        }
+        img{
+            border-radius: 100%;
+            font-size: 2rem;
+            border: 2px solid rgb(243, 243, 16);
+        }
+    }
+    
+}

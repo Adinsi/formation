@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+
+$font_principal :'Roboto Slab',
+serif;
+
+$color_principal : #212529;
+
+$color2 :rgb(228, 92, 77);
+$color3 : rgb(1, 156, 190);
+
+$line_height : 30px;
+
+$size : 20px;
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+     font-family: 'Roboto', sans-serif !important;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    max-width: 2000px;
+
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

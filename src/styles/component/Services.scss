@@ -1,0 +1,75 @@
+.services{
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    font-family: cursive;
+   
+    h1{
+    color: rgb(228, 92, 77);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    }
+    p{
+        span{
+            color: rgb(39, 229, 39);
+            font-weight: bolder;
+        }
+    }
+
+    .servicesContainer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+       
+    
+        margin-top: 60px;
+        .servicesElement{
+            width: 500px;
+            height: 300px;
+            box-shadow: 5px 5px 15px ;
+            margin-top: 30px;
+          
+           
+           h2{
+border-bottom: 1px solid black;
+margin-right: 10px;
+display: inline-block;
+text-align: center;
+
+
+           }
+           i{
+       
+            font-size: 1.4rem;
+
+           }
+           p{
+          padding:10px;
+        
+           }
+        }
+     
+    }
+}
+
+@media screen and (min-width : 320px) and (max-width : 1200px) {
+    .services{
+     
+        .servicesContainer{
+            flex-direction: column;
+        
+
+            .servicesElement{
+                margin-top: 20px;
+                margin-right: 0px;
+                width: auto;
+                height: auto;
+            }
+        }
+
+    }
+}
