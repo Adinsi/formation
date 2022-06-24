@@ -103,6 +103,9 @@ background-attachment: fixed;
         .menu.sticky {
                
                 position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
                 z-index: 10000;
                 height: 40px;
         
@@ -112,8 +115,9 @@ background-attachment: fixed;
             }
         .burger {
                 display: block;
-                position: relative;
-                bottom: 0px;
+                position: fixed;
+                top: 0px;
+                right: 0;
                 font-size: 1.5rem;
                 color:white;
                 z-index: 1000000;
