@@ -22,7 +22,7 @@
 
         .portfolioElement {
             width: 400px;
-            height: 300px;
+            height: 340px;
             background-color: transparent;
             box-shadow: 5px 5px 5px;
             border-radius: 15px;
@@ -45,7 +45,7 @@
 
             h3 {
                 position: relative;
-                top: 40px;
+                top: 50px;
                 color: rgb(85, 153, 188);
                 font-family: cursive;
                 font-weight: bold;
@@ -54,9 +54,9 @@
             }
 
             h4 {
+
                 position: relative;
-
-
+                top: 50px;
                 color: black;
                 padding-left: 15px;
 
@@ -98,9 +98,10 @@
                     font-size: 1.1rem;
                 }
 
+
                 a {
                     position: relative;
-                    top: 60px;
+                    top: 10px;
                 }
             }
         }
