@@ -1,155 +1,167 @@
-.aboute{
+.aboute {
     text-align: center;
     margin-top: 120px;
     line-height: 50px;
-   
 
-    .aboutContainerLeft{
+
+    .aboutContainerLeft {
         position: relative;
         right: 200px;
-        width:auto;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       align-content: center;
-       text-align: center;
-        h2{
-           color: gray;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+
+        h2 {
+            color: gray;
         }
-        .texte{
+
+        .texte {
             text-align: justify;
             width: 400px;
         }
-    
+
 
     }
 
-    .aboutContainerRight{
+    .aboutContainerRight {
         position: relative;
         left: 200px;
-        width:auto;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       align-content: center;
-       text-align: center;
-       margin-top: 60px;
-       
-        h2{
-           color: gray;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin-top: 60px;
+
+        h2 {
+            color: gray;
         }
-        .texte{
+
+        .texte {
             text-align: justify;
             width: 400px;
         }
-    
+
 
     }
-    .aboutContainerRight{
+
+    .aboutContainerRight {
         position: relative;
-        width:auto;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       align-content: center;
-       text-align: center;
-       margin-top: 60px;
-        h2{
-           color: gray;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin-top: 60px;
+
+        h2 {
+            color: gray;
         }
-        .texte{
+
+        .texte {
             text-align: justify;
             width: 400px;
         }
-    
+
 
     }
 
 
 
- 
+
 
 }
 
-@media screen and (max-width:850px){
-   
-    
-    
-    
-    .aboute{
+@media screen and (max-width:850px) {
+
+
+
+
+    .aboute {
         text-align: center;
         margin-top: 120px;
         line-height: 50px;
-       
-    
-        .aboutContainerLeft{
-           
+
+
+        .aboutContainerLeft {
+
             position: static;
-    
-            width:auto;
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-           align-content: center;
-           text-align: center;
-            h2{
-               color: gray;
+
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+
+            h2 {
+                color: gray;
             }
-            .texte{
+
+            .texte {
                 text-align: justify;
-               
+
             }
-        
-    
+
+
         }
-    
-        .aboutContainerRight{
+
+        .aboutContainerRight {
             position: static;
-           
-            width:auto;
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-           align-content: center;
-           text-align: center;
-           margin-top: 60px;
-           
-            h2{
-               color: gray;
+
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            margin-top: 60px;
+
+            h2 {
+                color: gray;
             }
-            .texte{
+
+            .texte {
                 text-align: justify;
                 width: auto;
             }
-        
-    
+
+
         }
-        .aboutContainerRight{
+
+        .aboutContainerRight {
             position: static;
-            width:auto;
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-           align-content: center;
-           text-align: center;
-           margin-top: 60px;
-            h2{
-               color: gray;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            margin-top: 60px;
+
+            h2 {
+                color: gray;
             }
-            .texte{
+
+            .texte {
                 text-align: justify;
-               
+
             }
-        
-    
+
+
         }
-    
-    
-    
-     
-    
+
+
+
+
+
     }
-     
-    
-    
+
+
+
 }

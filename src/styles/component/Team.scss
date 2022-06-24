@@ -1,29 +1,33 @@
-.teamContainer{
+.teamContainer {
 
     background-color: whitesmoke;
-    h1{
+
+    h1 {
         color: darksalmon;
         text-align: center;
 
     }
-    .team-menu{
+
+    .team-menu {
         display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
-        
-        .teamElement{
+
+        .teamElement {
             width: 400px;
             height: 100px;
             text-align: center;
-line-height: 45px;
-            margin-top:35px;
+            line-height: 45px;
+            margin-top: 35px;
         }
     }
-    p{
+
+    p {
         text-align: center;
     }
-    img{
+
+    img {
         border-radius: 100%;
         font-size: 2rem;
         border: 2px solid rgb(243, 243, 16);
@@ -31,24 +35,27 @@ line-height: 45px;
 }
 
 @media screen and (max-width : 850px) {
-    .teamContainer{
-      
+    .teamContainer {
+
         background-color: whitesmoke;
-        .team-menu{
+
+        .team-menu {
             display: flex;
             justify-content: space-around;
             flex-direction: column;
             align-items: center;
             align-content: center;
         }
-        p{
+
+        p {
             text-align: center;
         }
-        img{
+
+        img {
             border-radius: 100%;
             font-size: 2rem;
             border: 2px solid rgb(243, 243, 16);
         }
     }
-    
+
 }

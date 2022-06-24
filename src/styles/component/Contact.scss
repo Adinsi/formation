@@ -1,19 +1,21 @@
-.contact{
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     background-color: whitesmoke;
-    a{
+
+    a {
         margin-right: 35px;
         font-size: 1.3rem;
         line-height: 40px;
     }
-   
+
 
 }
- small {
-     text-align: center;
-     display: block;
-     color: rgb(19, 14, 14);
- }
+
+small {
+    text-align: center;
+    display: block;
+    color: rgb(19, 14, 14);
+}

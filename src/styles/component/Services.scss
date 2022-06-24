@@ -1,72 +1,98 @@
-.services{
+.services {
     background-color: whitesmoke;
     margin: 10px;
     padding: 10px;
     font-family: cursive;
-   
-    h1{
-    color: rgb(228, 92, 77);
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: italic;
+
+    h1 {
+        color: rgb(228, 92, 77);
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
     }
-    p{
-        span{
+
+    p {
+        span {
             color: rgb(39, 229, 39);
             font-weight: bolder;
         }
     }
 
-    .servicesContainer{
+    .servicesContainer {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         align-content: center;
         flex-wrap: wrap;
-       
-    
+
+
         margin-top: 60px;
-        .servicesElement{
+
+        .servicesElement {
             width: 500px;
             height: 300px;
-            box-shadow: 5px 5px 15px ;
+            box-shadow: 5px 5px 15px;
             margin-top: 30px;
-          
-           
-           h2{
-border-bottom: 1px solid black;
-margin-right: 10px;
-display: inline-block;
-text-align: center;
 
 
-           }
-           i{
-       
-            font-size: 1.4rem;
+            h2 {
+                border-bottom: 1px solid black;
+                margin-right: 10px;
+                display: inline-block;
+                text-align: center;
 
-           }
-           p{
-          padding:10px;
-        
-           }
+
+            }
+
+            i {
+
+                font-size: 1.4rem;
+
+                text-align: center;
+
+
+
+            }
+
+            p {
+                padding: 15px;
+                text-align: justify;
+
+            }
         }
-     
+
     }
 }
 
-@media screen and (min-width : 320px) and (max-width : 1200px) {
-    .services{
-     
-        .servicesContainer{
-            flex-direction: column;
-        
+@media screen and (min-width : 300px) and (max-width : 600px) {
+    .services {
 
-            .servicesElement{
+        .servicesContainer {
+            flex-direction: column;
+
+
+            .servicesElement {
                 margin-top: 20px;
                 margin-right: 0px;
-                width: auto;
+                width: 100%;
+                height: 250px;
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width : 600px) and (max-width : 1200px) {
+    .services {
+
+        .servicesContainer {
+
+
+
+            .servicesElement {
+
+                width: 100%;
                 height: auto;
             }
         }
