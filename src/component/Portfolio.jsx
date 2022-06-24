@@ -29,8 +29,8 @@ const Portfolio = () => {
         <div className="portfolioElement">
           <i class="fa-solid fa-user-check"></i>
 
-          <h3>Portfolio Personnels</h3>
-          <a href="https://Adinsi.github.io/My-portfolio">Voir l'exemple</a>
+          <h3>Portfolio Personnels à réaliser</h3>
+    
         </div>
       </div>
     </div>
