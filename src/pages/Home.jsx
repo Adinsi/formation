@@ -4,6 +4,7 @@ import Navigation from "../component/Navigation";
 import Portfolio from "../component/Portfolio";
 import Services from "../component/Services";
 import Team from "../component/Team";
+import '../styles/pages/home.scss'
 
 const Home = () => {
   return (

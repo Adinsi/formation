@@ -61,7 +61,7 @@ const Navigation = () => {
       </div>
       <div className="heroes">
         <h2>
-          Formation en Devellopement <span>web</span>{" "}
+          Formation en Devellopement <span>web</span>
         </h2>
         <h2>Dev Fullstack : Abdias Adinsi</h2>
       </div>
